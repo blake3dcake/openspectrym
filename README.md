@@ -7,6 +7,9 @@ The difference betweent these two is the guage of silicone tube that they accept
 
 Both pumps require a .6mm ID x 1mm OD PTFE tube that is insterted into an ink bottle to create a leak proof seal.
 
+Parts list
+https://www.amazon.com/shop/blake3dcake/list/3DG12XG11M4M1?ref_=cm_sw_r_cp_ud_aipsflist_aipsfblake3dcake_S4P14D43RQJ0KXA37WWG
+
 There are tradeoffs between these two pumps. 3mmSpectrym is smaller, easier to print, more precise. On the other hand 4mm spectrym might have more reliability due to larger pump components.
 
 Both pumps currently suffer from a "backflow" issue.
