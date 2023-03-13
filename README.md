@@ -1,5 +1,7 @@
 # openspectrym
 add multicolor to a 3d printer by coating its filament with ink
+![this](https://user-images.githubusercontent.com/127003963/224782383-03cb3734-0345-420c-be27-86226acdcdab.jpg)
+
 
 This repo contains two variations of a peristaltic pump mechanism (3mmSpectrym and 4mmSpectrym). 
 
