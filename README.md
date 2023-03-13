@@ -1,5 +1,7 @@
 # openspectrym
 add multicolor to a 3d printer by coating its filament with ink
+
+
 ![this](https://user-images.githubusercontent.com/127003963/224782383-03cb3734-0345-420c-be27-86226acdcdab.jpg)
 
 
@@ -8,6 +10,8 @@ This repo contains two variations of a peristaltic pump mechanism (3mmSpectrym a
 The difference betweent these two is the guage of silicone tube that they accept and the size of their bearings. 3mmSpectrym accepts a 1mm ID x 3mm OD silicone tube with a 1/2in bearing and 4mmSpectrym accepts a 2mm ID x 4mm OD tube with a 3/4in bearing. On top of this 4mmSpectrym requires a 1mmID x 3mm OD silicone tube to serve as an adapter as well as a 1mm ID x 3mm OD PTFE tube to serve as a nozzle. 
 
 Both pumps require a .6mm ID x 1mm OD PTFE tube that is insterted into an ink bottle to create a leak proof seal.
+
+![spee](https://user-images.githubusercontent.com/127003963/224782675-06ac45fc-f5aa-43c2-ba5e-6577b91a5513.jpg)
 
 Parts list
 https://www.amazon.com/shop/blake3dcake/list/3DG12XG11M4M1?ref_=cm_sw_r_cp_ud_aipsflist_aipsfblake3dcake_S4P14D43RQJ0KXA37WWG
@@ -26,12 +30,18 @@ Next M3 inserts should be added with a soldering iron (this includes the inserts
 
 Next youll need to convert 3 28byj-48 stepper motors from unipolar to bipolar so they will work with the A4988 driver. To do this you need to take the back tab covering off of the motor. Next take a razer bladee and cut the circuit trace directly in the center. This trace should be connceted to the red wire. Cut the red wire so everything is nice and clean. Replace the cover and tape it back on with electrical tape (the tabs will probably be broken).
 
+![spe](https://user-images.githubusercontent.com/127003963/224782807-ace81f34-5e4f-4370-996e-cc15141517da.jpg)
+
 Now you can assemble and screw everything into place.
 
 Next step is to set up current limiting on the A4988 motor driver. The 28byj-48 is rated for .1A continous so if you dont set current limiting on the driver you will fry the motor. This guide should help (also note the micro stepping section if you want to change that)
 https://lastminuteengineers.com/a4988-stepper-motor-driver-arduino-tutorial/
 
-Now you can assemble the cirucit, upload the sketch to your Pi Pico, hook it up to your printer and start experimenting!
+Both spectrym models are designed with holders for Pinata alcohol inks. The bottles should fit nicely into the slots. Before inserting the bottles they need to be modified in order to be suitable for the system. The first modification is the nozzle on the ink bottle needs to be widened to 1mm in order to accept a ptfe tube. Use a small drillbit to enlarge the hole. Next you can insert the ptfe tubing (it should be a tight fit). Make sure to leave excess ptfe tubing sticking out in order to attach the silicone tube to it later. Lastly drill a very small hole in the rim of the bottle. This is neccisary to depressurize the bottle as liquid is being drawn out.
+
+![ink](https://user-images.githubusercontent.com/127003963/224785386-740069fb-88d5-4dab-a94a-6ca0435681fb.jpg)
+
+The next steps are to assemble the cirucit, upload the sketch to your Pi Pico, and hook it to the printer frame using locking nuts.
 
 Parts list
 https://www.amazon.com/shop/blake3dcake/list/3DG12XG11M4M1?ref_=cm_sw_r_cp_ud_aipsflist_aipsfblake3dcake_S4P14D43RQJ0KXA37WWG
