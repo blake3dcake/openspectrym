@@ -1,5 +1,5 @@
 # openspectrym
-add multicolor to a 3d printer by coating its filament with ink (with markers or pumps)
+add multicolor to a 3d printer by coating its filament with ink (markers or pumps)
 
 Marker Version
 ![20230420_144810](https://user-images.githubusercontent.com/127003963/233473385-92e0e9a6-760b-47e6-aaa7-412ab179710c.jpg)
