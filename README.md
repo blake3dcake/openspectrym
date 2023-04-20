@@ -1,5 +1,7 @@
 # openspectrym
-add multicolor to a 3d printer by coating its filament with ink
+add multicolor to a 3d printer by coating its filament with ink (with markers or pumps)
+
+Pump Variations (uses peristaltic pumps instead of markers)
 
 *developer notes*
 This project is still in development. Do not expect an easy or seamless experience.
@@ -18,7 +20,7 @@ An integration directly into the hotend. Dispensing ink onto the filament shortl
 
 ![this](https://user-images.githubusercontent.com/127003963/224782383-03cb3734-0345-420c-be27-86226acdcdab.jpg)
 
-This repo contains two variations of a peristaltic pump mechanism (3mmSpectrym and 4mmSpectrym). 
+This repo contains two variations of a peristaltic pump mechanisms (3mmSpectrym and 4mmSpectrym). 
 
 The difference betweent these two is the guage of silicone tube that they accept and the size of their bearings. 3mmSpectrym accepts a 1mm ID x 3mm OD silicone tube with a 1/2in bearing and 4mmSpectrym accepts a 2mm ID x 4mm OD tube with a 3/4in bearing. On top of this 4mmSpectrym requires a 1mmID x 3mm OD silicone tube to serve as an adapter as well as a 1mm ID x 3mm OD PTFE tube to serve as a nozzle. 
 
