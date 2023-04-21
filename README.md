@@ -1,10 +1,23 @@
 # openspectrym
-add multicolor to a 3d printer by coating its filament with ink (markers or pumps)
+add multicolor to a 3d printer by coating its filament with ink (using markers or pumps)
 
 Marker Version
 ![20230420_144810](https://user-images.githubusercontent.com/127003963/233473385-92e0e9a6-760b-47e6-aaa7-412ab179710c.jpg)
+![20230420_144613](https://user-images.githubusercontent.com/127003963/233476764-a0f7af4e-0024-41f3-bd19-38e2c83b209c.jpg)
+
+This device uses servo motors to position markers precisely so they brush against the filament.
+
+The first step is to 3d print the mechanism (the files should not require support). The 'markerholder' pieces are designed for sharpie brand markers and require a M3 brass insert. A soldering iron can be used to heat up the insert and then press it into the plastic. Once inserted, M3 screws can be tightened to hold the markers in place. If you don't have a soldering iron consider using tape. If you want to use different markers consider designing new holders(dont forget to post them here). M3 sccrews and nuts can be used to secure everthing else in place.
+
+The next step is to wire everything up.
+
+
+
+
+
 
 The device mounts to the side rail of an ender 3 (I have not tested other printers) https://www.youtube.com/shorts/5oh6Mta2isw
+
 
 
 
