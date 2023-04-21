@@ -7,7 +7,7 @@ Marker Version
 
 This device uses servo motors to position markers precisely so they brush against the filament.
 
-The first step is to 3d print the mechanism (the files should not require support). The 'markerholder' pieces are designed for sharpie brand markers and require a M3 brass insert. A soldering iron can be used to heat up the insert and then press it into the plastic. Once inserted, M3 screws can be tightened to hold the markers in place. If you don't have a soldering iron consider using tape. If you want to use different markers consider designing new holders(dont forget to post them here). M3 sccrews and nuts can be used to secure everthing else in place.
+The first step is to 3d print the mechanism (the files should not require support). The 'markerholder' pieces are designed for sharpie brand markers and require an M3 brass inserts as well as the orginal MG90s servo horn screws(theyre tiny so dont lose them!). A soldering iron can be used to heat up an insert and then press it into the plastic. Once inserted, M3 screws can be tightened to hold the markers in place. If you don't have a soldering iron consider using tape. If you want to use different markers consider designing new holders(dont forget to post them here). M3 sccrews and nuts can be used to secure everthing else in place.
 
 The next step is to wire everything up.
 
@@ -15,10 +15,7 @@ Now you can hop into the code and calibrate your servo motors (more detail is co
 
 The device mounts to the side rail of an ender 3 (I have not tested other printers) https://www.youtube.com/shorts/5oh6Mta2isw
 
-
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pump Variations (uses peristaltic pumps instead of markers)
 
 Experimental. Do not expect an easy or seamless experience.
