@@ -11,6 +11,8 @@ The first step is to 3d print the mechanism (the files should not require suppor
 
 The next step is to wire everything up.
 
+![MarkerSpectrymSchematic](https://user-images.githubusercontent.com/127003963/233525405-7c45ce69-e7c0-45e9-b243-268408fbfcb1.png)
+
 Now you can hop into the code and calibrate your servo motors (more detail is commented out inside the code)
 
 The device mounts to the side rail of an ender 3 (I have not tested other printers) https://www.youtube.com/shorts/5oh6Mta2isw
