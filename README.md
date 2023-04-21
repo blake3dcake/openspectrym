@@ -11,10 +11,7 @@ The first step is to 3d print the mechanism (the files should not require suppor
 
 The next step is to wire everything up.
 
-
-
-
-
+Now you can hop into the code and calibrate your servo motors (more detail is commented out inside the code)
 
 The device mounts to the side rail of an ender 3 (I have not tested other printers) https://www.youtube.com/shorts/5oh6Mta2isw
 
