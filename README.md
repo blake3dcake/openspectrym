@@ -17,6 +17,9 @@ Now you can hop into the code and calibrate your servo motors (more detail is co
 
 The device mounts to the side rail of an ender 3 (I have not tested other printers) https://www.youtube.com/shorts/5oh6Mta2isw
 
+Parts list
+https://www.amazon.com/shop/blake3dcake/list/1JYEKFBQGMOAY?ref_=cm_sw_r_cp_ud_aipsflist_aipsfblake3dcake_S3FVZFR2D158KAPNC2K6
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Pump Variations (uses peristaltic pumps instead of markers)
 
